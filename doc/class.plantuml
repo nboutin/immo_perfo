@@ -1,0 +1,29 @@
+@startuml
+
+class Variable {
+	+String name
+	+Type value_type
+	+Period period
+	+value_type default_value
+	+List formula
+}
+
+class Cache {
+	+__init__(variable:Variable)
+	+set_input(period:Period, value:Variable.value_type)
+	+Variable variable
+	+Dict[Period, Variable.value_type] value
+}
+
+class Period {
+
+}
+
+class Population {
+	-Dict[Variable.name, Holder] holders
+}
+
+Cache *-- Variable
+Cache -- Period
+Population *-- Cache
+@enduml
