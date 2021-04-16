@@ -42,6 +42,8 @@ R04_002_A Keep one value per period
 R04_003_A Variable can be set with a period and a value
 R04_004_A Variable value can be get for a period
 R04_005_A Can return Variable default_value
+R04_006_A If value does not exit for a period, get_value return None
+R04_007_A Check set_value value value_type against variable value_type
 
 ## Population
 
