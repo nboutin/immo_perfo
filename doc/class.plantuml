@@ -28,7 +28,10 @@ class Period {
 }
 
 class Population {
-	-Dict[Variable.name, Holder] holders
+	-holders: Dict[Variable.name, Holder]
+	+simulation: Simulation
+	+set_simulation(simulation)
+	+get_cache(variable_name: str)
 }
 
 class ImmoCore {

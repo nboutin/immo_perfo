@@ -47,11 +47,14 @@ R04_007_A Check set_value value value_type against variable value_type
 
 ## Population
 
-Population is data for Simulation
-Population is link between Variable and Cache (data of Variable)
+R05_001_A Population is data for Simulation
+R05_002_A Population is link between Variable and Cache (data of Variable), 
 example: caches[Variable.name] = Cache()
+R05_003_A Population does not check period input against variable period
+R05_004_A Get Cache by variable name
+R05_005_A Create Cache if it does not exist for a variable
+R05_006_A Get variable instance from model from ImmoCore through Simulation
 
 ## Simulation
 
-Simulation use an instance of Population as input data
-and to compute variable value
+Simulation use an instance of Population as input data and to compute variable value
