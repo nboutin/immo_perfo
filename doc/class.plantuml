@@ -8,6 +8,10 @@ class Variable {
 	+List formula
 }
 
+class MyVar {
+    +formula(population: Population, period: Period)
+}
+
 class Cache {
 	+__init__(variable:Variable)
 	+set_input(period:Period, value:Variable.value_type)
@@ -23,7 +27,21 @@ class Population {
 	-Dict[Variable.name, Holder] holders
 }
 
+class ImmoCore {
+    +Dict[Variable.name, variable] variables
+    +load_variables_from_directory(dir_path)
+    +load_variables_from_files(file_path)
+    +load_variable(variable_class)
+}
+
+class Simulation {
+    +Population population
+}
+
+Variable <|-- MyVar
 Cache *-- Variable
 Cache -- Period
 Population *-- Cache
+Simulation *-- Population
+
 @enduml
