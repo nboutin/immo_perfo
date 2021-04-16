@@ -15,17 +15,18 @@ R01_003_A Variable as input does not have formula definition
 R01_004_A Variable as computed value has formula definition
 R01_005_A Formula parameter are Population, Period
 
+## Immo Core
+
+R02_001_A Store Variables instances define by a model.
+R02_002_A Variable are loaded by ImmoCore by providing a path to a Python package
+R02_003_A Variable are loaded by ImmoCore by providing a path to a Python module
+R02_004_A ImmoCore can construct a Population according to loaded Model.
+
 ## Model
 
 Model is a Python package containing one or several modules.
 Modules inside a model define Variables by inheritance with class Variable.
 A model must be provided to ImmoCore
-
-## Immo Core
-
-Store Variables instances define by a model.
-Variable are loaded by ImmoCore by providing a path to a Python package.
-ImmoCore can construct a Population according to loaded Model.
 
 ## Cache
 

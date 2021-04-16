@@ -32,6 +32,7 @@ class ImmoCore {
     +load_variables_from_directory(dir_path)
     +load_variables_from_files(file_path)
     +load_variable(variable_class)
+    +build_population() -> Population
 }
 
 class Simulation {
