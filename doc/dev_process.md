@@ -1,7 +1,7 @@
 # Development Process
 
 ## Design and Requirement
-- branch name: feature/design_req/name
+- branch name: feature/req/name
 - update design according to requirement
 - define unique id per requirement
 
