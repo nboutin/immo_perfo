@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//source/immo_perfo/__init__.py=utf-8
 encoding//source/immo_perfo/immo_core.py=utf-8
+encoding//source/immo_perfo/periods.py=utf-8
 encoding//source/immo_perfo/variable.py=utf-8
 encoding//source/test/immo_perfo/__init__.py=utf-8
 encoding//source/test/immo_perfo/res/__init__.py=utf-8
