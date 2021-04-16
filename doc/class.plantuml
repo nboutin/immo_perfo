@@ -20,7 +20,9 @@ class Cache {
 }
 
 class Period {
-
+    +unit
+    +start: Instant
+    +size: int
 }
 
 class Population {
@@ -41,6 +43,7 @@ class Simulation {
 
 Variable <|-- MyVar
 Cache *-- Variable
+tuple <|-- Period
 Cache -- Period
 Population *-- Cache
 Simulation *-- Population

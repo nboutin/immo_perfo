@@ -28,6 +28,13 @@ Model is a Python package containing one or several modules.
 Modules inside a model define Variables by inheritance with class Variable.
 A model must be provided to ImmoCore
 
+## Period
+
+R03_0001_A Period is define by :
+- unit which can be Day, Month, Year, Eternity
+- instant of start
+- size related to unit aka quantity
+
 ## Cache
 
 Keep variable computed value
