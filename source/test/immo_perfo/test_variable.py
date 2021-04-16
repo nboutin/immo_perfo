@@ -8,7 +8,7 @@
 
 import unittest
 
-from .res.variable import Var1, Var2
+from .res.test_variable.variable import Var1, Var2
 
 
 class TestVariable(unittest.TestCase):
