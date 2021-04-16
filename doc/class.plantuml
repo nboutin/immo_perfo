@@ -13,10 +13,12 @@ class MyVar {
 }
 
 class Cache {
-	+__init__(variable:Variable)
-	+set_input(period:Period, value:Variable.value_type)
 	+Variable variable
 	+Dict[Period, Variable.value_type] value
+	+__init__(variable:Variable)
+	+set_value(period:Period, value:Variable.value_type)
+	+get_value(period:Period)
+	+get_default_value()
 }
 
 class Period {

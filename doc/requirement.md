@@ -37,8 +37,11 @@ R03_0001_A Period is define by :
 
 ## Cache
 
-Keep variable computed value
-Keep on value per period
+R04_001_A Keep variable computed value
+R04_002_A Keep one value per period
+R04_003_A Variable can be set with a period and a value
+R04_004_A Variable value can be get for a period
+R04_005_A Can return Variable default_value
 
 ## Population
 
